@@ -2,4 +2,4 @@
 
 REST-Rant is an app where users can review restaurants.
 
-![postman image](https://yt3.ggpht.com/a/AGF-l791ySSDFwSHTYVjI0BMuuyqlFmiMutGcvcYcA=s900-c-k-c0xffffffff-no-rj-mo)
+![postman image](https://static.vecteezy.com/system/resources/previews/000/656/457/original/restaurant-badge-and-logo-good-for-print-vector.jpg)
