@@ -3,11 +3,21 @@
 ## REST-Rant is an app where users can review restaurants.
 
 
-| method |path   |purpose   |   |   |
+| method |path   |purpose   
 |---|---|---|---|---|
+| GET  |/   | Home Page  |   |   |
+| GET  |/places   | Places index page |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
 
 $ wget https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc
 $ chmod a+x gh-md-toc
