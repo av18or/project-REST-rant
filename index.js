@@ -18,8 +18,9 @@ app.get('/', (req, res) => {
 
 
 // create a wildcard route '*' (must stay at bottom of all routes)
+//chaged res.send to res.render. passing the name of the view for 404 page
 app.get('*', (req, res) => {
-    res.status(404).send('<h1>404 Page Not Found</h1>')
+    res.render('error404')
     //.status(404) - returns an actual 404 response
 })
 
