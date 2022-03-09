@@ -1,16 +1,19 @@
 require('dotenv').config()
-
 const express = require('express')
 const app = express()
+
+//define view engine:
+app.set('view engine', 'jsx')
+app.engine('jsx', require('express-react-views').createEngine())
 
 
 //import the router code from places.js
 app.use('/places', require('./controllers/places'))
 
 
-
+//chaged res.send to res.render:
 app.get('/', (req, res) => {
-    res.send('Hello world!')
+    res.render('home')
 })
 
 
