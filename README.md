@@ -5,8 +5,8 @@
 
 | method |path   |purpose   
 |---|---|---|---|---|
-| GET  |/   | Home Page  |   |   |
-| GET  |/places   | Places index page |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
