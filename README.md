@@ -17,4 +17,13 @@
 |GET|*|404 page (matches any route not defined above)|
 
 
+|places|
+|------|
+|name|
+|city|
+|state|
+|cuisines|
+|pic|
+
+
 ![postman image](https://static.vecteezy.com/system/resources/previews/000/656/457/original/restaurant-badge-and-logo-good-for-print-vector.jpg)
