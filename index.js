@@ -5,7 +5,7 @@ const app = express()
 //define view engine:
 app.set('view engine', 'jsx')
 app.engine('jsx', require('express-react-views').createEngine())
-
+app.use(express.static('public'))
 
 
 //import the router code from places.js

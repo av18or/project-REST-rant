@@ -7,7 +7,7 @@ const router = require('express').Router()
 
 // create the GET route that will show list of all places:
 router.get('/', (req, res) => {
-    let places = [{
+    let places = [{             //places local variable
         name: 'H-Thai-ML',
         city: 'Seattle',
         state: 'WA',
@@ -20,7 +20,8 @@ router.get('/', (req, res) => {
         cuisines: 'Coffee, Bakery',
         pic: 'http://placekitten.com/250/250'
       }]
-    res.render('places/index', { places })
+      //pass places array into render method
+    res.render('places/index', { places })  
 })
 
 
