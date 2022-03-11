@@ -5,6 +5,11 @@
 const router = require('express').Router()
 
 
+//route for new places page
+router.get('/new', (req, res) => {
+  res.render('places/new')
+})
+
 // create the GET route that will show list of all places:
 router.get('/', (req, res) => {
     let places = [{             //places local variable
