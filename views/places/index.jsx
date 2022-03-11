@@ -10,9 +10,16 @@ function index (data) { //include data parameter
 //format the data from places array to HTML using .map array method
   let placesFormatted = data.places.map((place, index) => {
     return (
-      <div key={index}>
+      <div className="col-sm-6" key={index}>
+        
         <h2>{place.name}</h2>
+        <p className="text-center">
+          {place.cuisines}
+        </p>
         <img src={place.pic} alt={place.name}/>
+        <p className="text-center">
+          Located in {place.city}, {place.state}
+        </p>
       </div>
     )
   })
@@ -20,7 +27,9 @@ function index (data) { //include data parameter
     <Def>
         <main>
             <h1>PLACES INDEX PAGE</h1>
+            <div className="row">
             {placesFormatted}
+            </div>
         </main>
     </Def>
 )
