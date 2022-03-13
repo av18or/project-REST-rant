@@ -21,8 +21,8 @@ function index (data) { //include data parameter
           Located in {place.city}, {place.state}
         </p>
       </div>
-    )
-  })
+    );
+  });
   return (
     <Def>
         <main>
@@ -38,4 +38,4 @@ function index (data) { //include data parameter
 
 // export the index function:
 
-module.exports = index
+module.exports = index;
