@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
+const methodOverride = require('method-override');
 
 
 //define view engine:
@@ -14,6 +15,7 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
 //import the router code from places.js
 app.use('/places', require('./controllers/places'));
+app.use(methodOverride('_method'));
 
 
 
